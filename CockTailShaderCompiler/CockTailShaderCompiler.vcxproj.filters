@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{2cef47dc-3490-464d-b438-f8db15d7cb09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MacroShader">
+      <UniqueIdentifier>{64f90c39-6f9d-43b0-836e-271a350250f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Deferred">
+      <UniqueIdentifier>{056d3ae0-7683-48af-9e8c-f45234237928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\LineShader">
+      <UniqueIdentifier>{4408eadc-fcd9-4a8b-ae4c-e7e6f8fb8af5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Particle">
+      <UniqueIdentifier>{39714336-8702-4ddd-aaf7-e871b737862f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\PBRShader">
+      <UniqueIdentifier>{e61869c0-1383-4128-86a7-d49bdce091ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\SkyBoxShader">
+      <UniqueIdentifier>{6f433da0-169d-43b7-b8b5-8efb0ac98649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\SpriteEffectShader">
+      <UniqueIdentifier>{6612533f-5888-4c62-be6e-2ccac0171f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MacroShader\PostProcess">
+      <UniqueIdentifier>{3c27c17b-a4b8-45c6-905e-0d028db2885f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MacroShader\Shadow">
+      <UniqueIdentifier>{b600a8e8-c4a8-4efd-b38d-b3ec7b9f5e82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MacroShader\PBRShader">
+      <UniqueIdentifier>{2dbb9b07-1f4a-4a05-8030-2e72cc966487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MacroShader\PBRShader\VS">
+      <UniqueIdentifier>{19bf39bb-b132-4dbe-8017-af27572ffbb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MacroShader\PBRShader\PS">
+      <UniqueIdentifier>{e66f4a6a-7815-4d43-8a3d-3a4cda08b476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MacroShader\PBRShader\EffectPS">
+      <UniqueIdentifier>{82213cc0-9896-44f7-add2-5f1ad6d517a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MacroShader\PBRShader\LightPS">
+      <UniqueIdentifier>{93ca4bbf-7e11-4502-bdef-363badb40bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MacroShader\Particle">
+      <UniqueIdentifier>{75980634-b755-4679-ab5c-e6d13b33d48f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="AllShaders\PostProcessPS.hlsl">
+      <Filter>Shader\Deferred</Filter>
+    </FxCompile>
+    <FxCompile Include="AllShaders\QuadVS.hlsl">
+      <Filter>Shader\Deferred</Filter>
+    </FxCompile>
+    <FxCompile Include="AllShaders\ShadowGS.hlsl">
+      <Filter>Shader\Deferred</Filter>
+    </FxCompile>
+    <FxCompile Include="AllShaders\ShadowVS.hlsl">
+      <Filter>Shader\Deferred</Filter>
+    </FxCompile>
+    <FxCompile Include="AllShaders\BasicColorPS.hlsl">
+      <Filter>Shader\LineShader</Filter>
+    </FxCompile>
+    <FxCompile Include="AllShaders\BasicColorVS.hlsl">
+      <Filter>Shader\LineShader</Filter>
+    </FxCompile>
+    <FxCompile Include="AllShaders\LinePS.hlsl">
+      <Filter>Shader\LineShader</Filter>
+    </FxCompile>
+    <FxCompile Include="AllShaders\LineVS.hlsl">
+      <Filter>Shader\LineShader</Filter>
+    </FxCompile>
+    <FxCompile Include="AllShaders\ParticlePS.hlsl">
+      <Filter>Shader\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="AllShaders\ParticleVS.hlsl">
+      <Filter>Shader\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="AllShaders\BasicParticleCS.hlsl">
+      <Filter>Shader\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="AllShaders\BasicParticleGS.hlsl">
+      <Filter>Shader\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="AllShaders\PBRModelVS.hlsl">
+      <Filter>Shader\PBRShader</Filter>
+    </FxCompile>
+    <FxCompile Include="AllShaders\PBRLightPS.hlsl">
+      <Filter>Shader\PBRShader</Filter>
+    </FxCompile>
+    <FxCompile Include="AllShaders\PBRModelPS.hlsl">
+      <Filter>Shader\PBRShader</Filter>
+    </FxCompile>
+    <FxCompile Include="AllShaders\SkyBoxPS.hlsl">
+      <Filter>Shader\SkyBoxShader</Filter>
+    </FxCompile>
+    <FxCompile Include="AllShaders\SkyBoxVS.hlsl">
+      <Filter>Shader\SkyBoxShader</Filter>
+    </FxCompile>
+    <FxCompile Include="AllShaders\SpriteEffectPS.hlsl">
+      <Filter>Shader\SpriteEffectShader</Filter>
+    </FxCompile>
+    <FxCompile Include="AllShaders\SpriteEffectVS.hlsl">
+      <Filter>Shader\SpriteEffectShader</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\BlurHPS.hlsl">
+      <Filter>MacroShader\PostProcess</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\BlurVPS.hlsl">
+      <Filter>MacroShader\PostProcess</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PostProcessAllPS.hlsl">
+      <Filter>MacroShader\PostProcess</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\UpSamplePS.hlsl">
+      <Filter>MacroShader\PostProcess</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\GeoShadowSkinnedVS.hlsl">
+      <Filter>MacroShader\Shadow</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\GeoShadowStaticVS.hlsl">
+      <Filter>MacroShader\Shadow</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\ShadowSkinnedVS.hlsl">
+      <Filter>MacroShader\Shadow</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\ShadowStaticVS.hlsl">
+      <Filter>MacroShader\Shadow</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRAlphaSkinnedVS.hlsl">
+      <Filter>MacroShader\PBRShader\VS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRSkinnedVS.hlsl">
+      <Filter>MacroShader\PBRShader\VS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRStaticVS.hlsl">
+      <Filter>MacroShader\PBRShader\VS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRAlbedoPS.hlsl">
+      <Filter>MacroShader\PBRShader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRAlphaPS.hlsl">
+      <Filter>MacroShader\PBRShader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRFullPS.hlsl">
+      <Filter>MacroShader\PBRShader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRMetallicRoughnessPS.hlsl">
+      <Filter>MacroShader\PBRShader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRNormalAOPS.hlsl">
+      <Filter>MacroShader\PBRShader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRNormalMetallicRoughnessPS.hlsl">
+      <Filter>MacroShader\PBRShader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRNormalMRAOPS.hlsl">
+      <Filter>MacroShader\PBRShader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRNormalPS.hlsl">
+      <Filter>MacroShader\PBRShader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRPS.hlsl">
+      <Filter>MacroShader\PBRShader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRSkinAlbedoPS.hlsl">
+      <Filter>MacroShader\PBRShader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRSkinFullPS.hlsl">
+      <Filter>MacroShader\PBRShader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRSkinMetallicRoughnessPS.hlsl">
+      <Filter>MacroShader\PBRShader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRSkinNormalAOPS.hlsl">
+      <Filter>MacroShader\PBRShader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRSkinNormalMetallicRoughnessPS.hlsl">
+      <Filter>MacroShader\PBRShader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRSkinNormalMRAOPS.hlsl">
+      <Filter>MacroShader\PBRShader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRSkinNormalPS.hlsl">
+      <Filter>MacroShader\PBRShader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRSkinPS.hlsl">
+      <Filter>MacroShader\PBRShader\PS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\SkinPaperBurnPS.hlsl">
+      <Filter>MacroShader\PBRShader\EffectPS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\SkinPaperBurnAlbedoPS.hlsl">
+      <Filter>MacroShader\PBRShader\EffectPS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PaperBurnAlbedoPS.hlsl">
+      <Filter>MacroShader\PBRShader\EffectPS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PaperBurnAlphaPS.hlsl">
+      <Filter>MacroShader\PBRShader\EffectPS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PaperBurnPS.hlsl">
+      <Filter>MacroShader\PBRShader\EffectPS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\DownPS.hlsl">
+      <Filter>MacroShader\PostProcess</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRLightFullShadowPS.hlsl">
+      <Filter>MacroShader\PBRShader\LightPS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRLightFullShadowIndoorPS.hlsl">
+      <Filter>MacroShader\PBRShader\LightPS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRLightPS.hlsl">
+      <Filter>MacroShader\PBRShader\LightPS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\TrailGS.hlsl">
+      <Filter>MacroShader\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="AllShaders\OITBlendPS.hlsl">
+      <Filter>MacroShader\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\ParticleCS.hlsl">
+      <Filter>MacroShader\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\ParticleGS.hlsl">
+      <Filter>MacroShader\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\ResetParticleBufferCS.hlsl">
+      <Filter>MacroShader\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\ClearCounterBufferCS.hlsl">
+      <Filter>MacroShader\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRSilhouettePS.hlsl">
+      <Filter>MacroShader\PBRShader\EffectPS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRMonsterVS.hlsl">
+      <Filter>MacroShader\PBRShader\VS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRMonsterSilhouettePS.hlsl">
+      <Filter>MacroShader\PBRShader\EffectPS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBREdgePS.hlsl">
+      <Filter>MacroShader\PBRShader\EffectPS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PBRAlphaVS.hlsl">
+      <Filter>MacroShader\PBRShader\VS</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\ExceptDownPS.hlsl">
+      <Filter>MacroShader\PostProcess</Filter>
+    </FxCompile>
+    <FxCompile Include="AllShaders\SpriteEffectSRCPS.hlsl">
+      <Filter>Shader\SpriteEffectShader</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\PostProcessNotBloomPS.hlsl">
+      <Filter>MacroShader\PostProcess</Filter>
+    </FxCompile>
+    <FxCompile Include="MacroShaders\NotPostProcessPS.hlsl">
+      <Filter>MacroShader\PostProcess</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AllShaders\ColorHelper.hlsli">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="AllShaders\BasicColorTypes.hlsli">
+      <Filter>Shader\LineShader</Filter>
+    </None>
+    <None Include="AllShaders\LineTypes.hlsli">
+      <Filter>Shader\LineShader</Filter>
+    </None>
+    <None Include="AllShaders\ParticleHelper.hlsli">
+      <Filter>Shader\Particle</Filter>
+    </None>
+    <None Include="AllShaders\ParticleCommon.hlsli">
+      <Filter>Shader\Particle</Filter>
+    </None>
+    <None Include="AllShaders\PBRLightUtils.hlsli">
+      <Filter>Shader\PBRShader</Filter>
+    </None>
+    <None Include="AllShaders\PBRModelTypes.hlsli">
+      <Filter>Shader\PBRShader</Filter>
+    </None>
+    <None Include="AllShaders\SkyBoxTypes.hlsli">
+      <Filter>Shader\SkyBoxShader</Filter>
+    </None>
+    <None Include="AllShaders\SpriteEffectTypes.hlsli">
+      <Filter>Shader\SpriteEffectShader</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArchorDogController.cpp" />
+    <ClCompile Include="AttackBoxColliderEvent.cpp" />
+    <ClCompile Include="BarCoreController.cpp" />
+    <ClCompile Include="BossController.cpp" />
+    <ClCompile Include="BossRayTrigger.cpp" />
+    <ClCompile Include="BossTile.cpp" />
+    <ClCompile Include="BossTurret.cpp" />
+    <ClCompile Include="BossTurretAttackObject.cpp" />
+    <ClCompile Include="CannonBall.cpp" />
+    <ClCompile Include="CockController.cpp" />
+    <ClCompile Include="CutScenePlay.cpp" />
+    <ClCompile Include="DodgeTrail.cpp" />
+    <ClCompile Include="ElevatorButtonTrigger.cpp" />
+    <ClCompile Include="EnemyAttackBehavior.cpp" />
+    <ClCompile Include="EnemyAttackBox.cpp" />
+    <ClCompile Include="EnemyAttackRangeMK2.cpp" />
+    <ClCompile Include="EnemyBehavior.cpp" />
+    <ClCompile Include="EnemyFounded.cpp" />
+    <ClCompile Include="EnemySpawn.cpp" />
+    <ClCompile Include="EnemySphereTrigger.cpp" />
+    <ClCompile Include="EnemyWaveSpawn.cpp" />
+    <ClCompile Include="FloatingUI.cpp" />
+    <ClCompile Include="FlyingAttackObject.cpp" />
+    <ClCompile Include="HPItem.cpp" />
+    <ClCompile Include="InteractionItem.cpp" />
+    <ClCompile Include="InterationParticle.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="ItemDrop.cpp" />
+    <ClCompile Include="ItemGetUI.cpp" />
+    <ClCompile Include="ItemObject.cpp" />
+    <ClCompile Include="MeleeDogController.cpp" />
+    <ClCompile Include="MiniTurret.cpp" />
+    <ClCompile Include="MiniTurretController.cpp" />
+    <ClCompile Include="MiniTurretTrigger.cpp" />
+    <ClCompile Include="MissileController.cpp" />
+    <ClCompile Include="NoiseUtility.cpp" />
+    <ClCompile Include="OpenStoreTrigger.cpp" />
+    <ClCompile Include="PlayerAttackBox.cpp" />
+    <ClCompile Include="PlayerCursorUI.cpp" />
+    <ClCompile Include="PlayerParryBox.cpp" />
+    <ClCompile Include="PortalEffect.cpp" />
+    <ClCompile Include="RedController.cpp" />
+    <ClCompile Include="ResultUIController.cpp" />
+    <ClCompile Include="Room1Door.cpp" />
+    <ClCompile Include="Room4Door.cpp" />
+    <ClCompile Include="Room4Event.cpp" />
+    <ClCompile Include="Room4Hole.cpp" />
+    <ClCompile Include="Scenes\Elevator2Scene.cpp" />
+    <ClCompile Include="Scenes\BossScene.cpp" />
+    <ClCompile Include="CutSceneTrigger.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="GameManagerObject.cpp" />
+    <ClCompile Include="Scenes\ElevatorScene.cpp" />
+    <ClCompile Include="EnemySpawner.cpp" />
+    <ClCompile Include="InteractionTrigger.cpp" />
+    <ClCompile Include="Scenes\ItemResultScene.cpp" />
+    <ClCompile Include="Scenes\Room4Scene.cpp" />
+    <ClCompile Include="Scenes\LeftRoom3Scene.cpp" />
+    <ClCompile Include="Scenes\Room2Scene.cpp" />
+    <ClCompile Include="Scenes\LeftPassage2Scene.cpp" />
+    <ClCompile Include="Scenes\LeftPassage1Scene.cpp" />
+    <ClCompile Include="NextSceneTrigger.cpp" />
+    <ClCompile Include="OpenCockTailTrigger.cpp" />
+    <ClCompile Include="PlayerControllerMK3.cpp" />
+    <ClCompile Include="PlayerRellyPointTrigger.cpp" />
+    <ClCompile Include="Scenes\BarOperationScene.cpp" />
+    <ClCompile Include="CameraController.cpp" />
+    <ClCompile Include="DamageTest.cpp" />
+    <ClCompile Include="EnemyAttackRange.cpp" />
+    <ClCompile Include="EnemyController.cpp" />
+    <ClCompile Include="EnemyHitTrigger.cpp" />
+    <ClCompile Include="EnemyNavAgent.cpp" />
+    <ClCompile Include="EnemySightRange.cpp" />
+    <ClCompile Include="EventCollider.cpp" />
+    <ClCompile Include="InGameUIController.cpp" />
+    <ClCompile Include="InventoryController.cpp" />
+    <ClCompile Include="PlayerControllerMK2.cpp" />
+    <ClCompile Include="Scenes\Room1Scene.cpp" />
+    <ClCompile Include="Scenes\LobbyScene.cpp" />
+    <ClCompile Include="Main\ClientMain.cpp" />
+    <ClCompile Include="OnHitCollider.cpp" />
+    <ClCompile Include="PlayerAttackController.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Scripts\PlayerController.cpp" />
+    <ClCompile Include="Scripts\MoveController.cpp" />
+    <ClCompile Include="SettingUIController.cpp" />
+    <ClCompile Include="Scenes\StraightPassageScene.cpp" />
+    <ClCompile Include="Slot.cpp" />
+    <ClCompile Include="SmileAimObject.cpp" />
+    <ClCompile Include="SmileTurret.cpp" />
+    <ClCompile Include="StoreController.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="TileAttackObject.cpp" />
+    <ClCompile Include="TitleMenuUIController.cpp" />
+    <ClCompile Include="TitleScene.cpp" />
+    <ClCompile Include="Scripts\Trigger.cpp" />
+    <ClCompile Include="ToadController.cpp" />
+    <ClCompile Include="TriggerManager.cpp" />
+    <ClCompile Include="Scenes\TutorialScene.cpp" />
+    <ClCompile Include="TurretBomb.cpp" />
+    <ClCompile Include="TurretBombEffect.cpp" />
+    <ClCompile Include="TurretMissile.cpp" />
+    <ClCompile Include="TutorialStartTrigger.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArchorDogController.h" />
+    <ClInclude Include="AttackBoxColliderEvent.h" />
+    <ClInclude Include="BarCoreController.h" />
+    <ClInclude Include="BossController.h" />
+    <ClInclude Include="BossRayTrigger.h" />
+    <ClInclude Include="BossTile.h" />
+    <ClInclude Include="BossTurret.h" />
+    <ClInclude Include="BossTurretAttackObject.h" />
+    <ClInclude Include="CannonBall.h" />
+    <ClInclude Include="CockController.h" />
+    <ClInclude Include="CutScenePlay.h" />
+    <ClInclude Include="DataBinaryLayout.h" />
+    <ClInclude Include="DodgeTrail.h" />
+    <ClInclude Include="ElevatorButtonTrigger.h" />
+    <ClInclude Include="EnemyAttackBehavior.h" />
+    <ClInclude Include="EnemyAttackBox.h" />
+    <ClInclude Include="EnemyAttackRangeMK2.h" />
+    <ClInclude Include="EnemyBehavior.h" />
+    <ClInclude Include="EnemyFounded.h" />
+    <ClInclude Include="EnemySpawn.h" />
+    <ClInclude Include="EnemySphereTrigger.h" />
+    <ClInclude Include="EnemyWaveSpawn.h" />
+    <ClInclude Include="FloatingUI.h" />
+    <ClInclude Include="FlyingAttackObject.h" />
+    <ClInclude Include="HPItem.h" />
+    <ClInclude Include="InteractionItem.h" />
+    <ClInclude Include="InterationParticle.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="ItemDrop.h" />
+    <ClInclude Include="ItemGetUI.h" />
+    <ClInclude Include="ItemObject.h" />
+    <ClInclude Include="MeleeDogController.h" />
+    <ClInclude Include="MiniTurret.h" />
+    <ClInclude Include="MiniTurretController.h" />
+    <ClInclude Include="MiniTurretTrigger.h" />
+    <ClInclude Include="MissileController.h" />
+    <ClInclude Include="NoiseUtility.h" />
+    <ClInclude Include="OpenStoreTrigger.h" />
+    <ClInclude Include="PlayerAttackBox.h" />
+    <ClInclude Include="PlayerCursorUI.h" />
+    <ClInclude Include="PlayerParryBox.h" />
+    <ClInclude Include="PortalEffect.h" />
+    <ClInclude Include="RedController.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="ResultUIController.h" />
+    <ClInclude Include="Room1Door.h" />
+    <ClInclude Include="Room4Door.h" />
+    <ClInclude Include="Room4Event.h" />
+    <ClInclude Include="Room4Hole.h" />
+    <ClInclude Include="Scenes\Elevator2Scene.h" />
+    <ClInclude Include="Scenes\BossScene.h" />
+    <ClInclude Include="CutSceneTrigger.h" />
+    <ClInclude Include="GameManagerObject.h" />
+    <ClInclude Include="Scenes\ElevatorScene.h" />
+    <ClInclude Include="EnemySpawner.h" />
+    <ClInclude Include="InteractionTrigger.h" />
+    <ClInclude Include="Scenes\ItemResultScene.h" />
+    <ClInclude Include="Scenes\Room4Scene.h" />
+    <ClInclude Include="Scenes\LeftRoom3Scene.h" />
+    <ClInclude Include="Scenes\Room2Scene.h" />
+    <ClInclude Include="Scenes\LeftPassage2Scene.h" />
+    <ClInclude Include="Scenes\LeftPassage1Scene.h" />
+    <ClInclude Include="NextSceneTrigger.h" />
+    <ClInclude Include="OpenCockTailTrigger.h" />
+    <ClInclude Include="PlayerControllerMK3.h" />
+    <ClInclude Include="PlayerRellyPointTrigger.h" />
+    <ClInclude Include="Scenes\BarOperationScene.h" />
+    <ClInclude Include="CameraController.h" />
+    <ClInclude Include="DamageTest.h" />
+    <ClInclude Include="EnemyAttackRange.h" />
+    <ClInclude Include="EnemyController.h" />
+    <ClInclude Include="EnemyHitTrigger.h" />
+    <ClInclude Include="EnemyNavAgent.h" />
+    <ClInclude Include="EnemySightRange.h" />
+    <ClInclude Include="EventCollider.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="OnHitCollider.h" />
+    <ClInclude Include="PlayerControllerMK2.h" />
+    <ClInclude Include="Scenes\Room1Scene.h" />
+    <ClInclude Include="Scenes\LobbyScene.h" />
+    <ClInclude Include="InventoryController.h" />
+    <ClInclude Include="PlayerAttackController.h" />
+    <ClInclude Include="InGameUIController.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Scripts\PlayerController.h" />
+    <ClInclude Include="Scripts\MoveController.h" />
+    <ClInclude Include="SettingUIController.h" />
+    <ClInclude Include="Scenes\StraightPassageScene.h" />
+    <ClInclude Include="Slot.h" />
+    <ClInclude Include="SmileAimObject.h" />
+    <ClInclude Include="SmileTurret.h" />
+    <ClInclude Include="StoreController.h" />
+    <ClInclude Include="test.h" />
+    <ClInclude Include="TileAttackObject.h" />
+    <ClInclude Include="TitleMenuUIController.h" />
+    <ClInclude Include="TitleScene.h" />
+    <ClInclude Include="Scripts\Trigger.h" />
+    <ClInclude Include="ScenePCH.h" />
+    <ClInclude Include="ToadController.h" />
+    <ClInclude Include="TriggerManager.h" />
+    <ClInclude Include="Scenes\TutorialScene.h" />
+    <ClInclude Include="TurretBomb.h" />
+    <ClInclude Include="TurretBombEffect.h" />
+    <ClInclude Include="TurretMissile.h" />
+    <ClInclude Include="TutorialStartTrigger.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CockTailClient1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Output\Resources\Icon\CockTailIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Output\Resources\Icon\ClickCursor.cur" />
+    <None Include="..\Output\Resources\Icon\Cursor.cur" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{70e4b2fc-c65e-485e-9d19-b066ab0f2e26}</ProjectGuid>
+    <RootNamespace>CockTailClient</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <IncludePath>$(SolutionDir)CommonLibrary\lib\boost;$(ProjectDir);$(SolutionDir)FootGameEngine;$(SolutionDir)FootGraphicsEngine;$(SolutionDir)FootGameEngine\Manager;$(IncludePath);$(SolutionDir)FBXTool\inc</IncludePath>
+    <LibraryPath>$(SolutionDir)CommonLibrary\lib\FMOD;$(SolutionDir)CommonLibrary\lib\behaviortree_cpp;$(SolutionDir)CommonLibrary\lib\Recast;$(SolutionDir)CommonLibrary\lib\boost\stage\lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+    <SourcePath>$(VC_SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <IncludePath>$(ProjectDir);$(SolutionDir)FootGameEngine;$(SolutionDir)FootGameEngine\Manager;$(SolutionDir)CommonLibrary\lib\boost;$(IncludePath);$(SolutionDir)FBXTool\inc</IncludePath>
+    <LibraryPath>$(SolutionDir)CommonLibrary\lib\FMOD;$(SolutionDir)CommonLibrary\lib\behaviortree_cpp;$(SolutionDir)CommonLibrary\lib\Recast;$(SolutionDir)CommonLibrary\lib\boost\stage\lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+    <SourcePath>$(VC_SourcePath)</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>x64;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Mooly\inc\PhysX;$(SolutionDir)CommonLibrary\inc\</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Output\GameEngine\;$(SolutionDir)Output\DLL\;$(SolutionDir)CommonLibrary\lib\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>x64;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)Mooly\inc\PhysX;$(SolutionDir)CommonLibrary\inc\</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Output\GameEngine\;$(SolutionDir)Output\DLL\;$(SolutionDir)CommonLibrary\lib\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
